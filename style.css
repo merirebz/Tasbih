@@ -1,0 +1,33 @@
+body{
+font-family:Arial;
+text-align:center;
+background:#f4f4f4;
+}
+
+#tasbih{
+width:420px;
+height:420px;
+margin:40px auto;
+position:relative;
+}
+
+.bead{
+width:16px;
+height:16px;
+background:#b08968;
+border-radius:50%;
+position:absolute;
+transition:all 0.3s ease;
+}
+
+.bead.active{
+background:#2e7d32;
+transform:scale(1.4);
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+cursor:pointer;
+margin-top:10px;
+}
